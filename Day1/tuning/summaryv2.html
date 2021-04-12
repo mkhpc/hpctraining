@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<html><style>
+        .metric-name {
+        font-weight: 600;
+        min-width: 14em;
+        display: inline-block;
+        }
+
+        .metric-value {
+        margin-left: 1em;
+        color: #336;
+        }
+
+        .metric-value-with-issue {
+        margin-left: 1em;
+        color: #C33;
+        }
+
+        li {
+        list-style-type: none;
+        }
+
+        ul {
+        margin-left: 1.5em;
+        padding-left: 0em;
+        }
+
+        body {
+        margin: 0;
+        paddind: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #336;
+        }
+
+        pre {
+        white-space:pre-wrap;
+        max-width: 40em;
+        color: #633;
+        }
+
+        .issue {
+        border-left: 3px solid #C33;
+        padding: 0.3em 0.3em 0.3em 1em;
+        }
+
+        table {
+        margin: 0 1.5em;
+        }
+
+        th, td {
+        text-align: left;
+        }
+
+        td {
+        color: #333;
+        }
+
+        th {
+        border-bottom: 2px solid #336;
+        font-weight: 600;
+        }
+
+        .table-value {
+        margin-right: 1.5em;
+        }
+
+        .brand {
+        background-color: #0071c5;
+        padding: 0.5em 1.5em;
+        width: 100%;
+        color: white;
+        font-weight: 600;
+        }
+
+        .recommendation-placeholder {
+        background-color: #eaecee;
+        padding: 1em;
+        }
+
+        .recommendation-placeholder p {
+        font-weight: 600;
+        margin: 0;
+        }
+
+        .recommendation {
+        border-left: 3px solid #bbb;
+        padding: 0.3em 0.3em 0.3em 1em;
+        margin: 0 0 0 1.5em;
+        }
+
+        .recommendation-metric {
+        font-weight: 600;
+        min-width: 14em;
+        display: inline-block;
+        margin: 0 0 0 1.5em;
+        }
+
+      </style><body><div class="brand">Intel<sup>&reg;</sup> oneAPI VTune<sup>&trade;</sup> Profiler 2021.1.1 Gold</div><ul><li><span class="metric-name">Elapsed Time:
+        </span><span class="metric-value">7.714s</span><ul><li><span class="metric-name">CPU Time:
+        </span><span class="metric-value">159.155s</span><ul><li><span class="metric-name">Effective Time:
+        </span><span class="metric-value">155.221s</span><ul><li><span class="metric-name">Idle:
+        </span><span class="metric-value">0.010s</span></li></ul><ul><li><span class="metric-name">Poor:
+        </span><span class="metric-value">0.345s</span></li></ul><ul><li><span class="metric-name">Ok:
+        </span><span class="metric-value">15.132s</span></li></ul><ul><li><span class="metric-name">Ideal:
+        </span><span class="metric-value">139.734s</span></li></ul><ul><li><span class="metric-name">Over:
+        </span><span class="metric-value">0s</span></li></ul></li></ul><ul><li><span class="metric-name">Spin Time:
+        </span><span class="metric-value">3.202s</span><ul><li><span class="metric-name">Imbalance or Serial Spinning:
+        </span><span class="metric-value">3.086s</span></li></ul><ul><li><span class="metric-name">Lock Contention:
+        </span><span class="metric-value">0s</span></li></ul><ul><li><span class="metric-name">Other:
+        </span><span class="metric-value">0.116s</span></li></ul></li></ul><ul><li><span class="metric-name">Overhead Time:
+        </span><span class="metric-value">0.732s</span><ul><li><span class="metric-name">Creation:
+        </span><span class="metric-value">0s</span></li></ul><ul><li><span class="metric-name">Scheduling:
+        </span><span class="metric-value">0.712s</span></li></ul><ul><li><span class="metric-name">Reduction:
+        </span><span class="metric-value">0s</span></li></ul><ul><li><span class="metric-name">Atomics:
+        </span><span class="metric-value">0s</span></li></ul><ul><li><span class="metric-name">Other:
+        </span><span class="metric-value">0.020s</span></li></ul></li></ul></li></ul><ul><li><span class="metric-name">Total Thread Count:
+        </span><span class="metric-value">24</span></li></ul><ul><li><span class="metric-name">Paused Time:
+        </span><span class="metric-value">0s</span></li></ul></li></ul><ul><li><span class="metric-name">Top Hotspots:
+        </span><span class="metric-value"/><table><tr><th><span class="table-value">Function</span></th><th><span class="table-value">Module</span></th><th><span class="table-value">CPU Time</span></th></tr><tr><td><span class="table-value">isprime</span></td><td><span class="table-value">ompprimev2</span></td><td><span class="table-value">154.915s</span></td></tr><tr><td><span class="table-value">__kmp_fork_barrier</span></td><td><span class="table-value">libiomp5.so</span></td><td><span class="table-value">3.202s</span></td></tr><tr><td><span class="table-value">[OpenMP dispatcher]</span></td><td><span class="table-value">libiomp5.so</span></td><td><span class="table-value">0.520s</span></td></tr><tr><td><span class="table-value">main$omp$parallel@21</span></td><td><span class="table-value">ompprimev2</span></td><td><span class="table-value">0.296s</span></td></tr><tr><td><span class="table-value">_INTERNAL5d437bb1::[OpenMP dispatcher]</span></td><td><span class="table-value">libiomp5.so</span></td><td><span class="table-value">0.156s</span></td></tr><tr><td><span class="table-value">[Others]</span></td><td><span class="table-value">N/A</span></td><td><span class="table-value">0.066s</span></td></tr></table></li></ul><ul><li><span class="metric-name">Effective Physical Core Utilization:
+        </span><span class="metric-value">86.8% (10.413 out of 12)</span><ul><li><span class="metric-name">Effective Logical Core Utilization:
+        </span><span class="metric-value">86.4% (20.739 out of 24)</span></li></ul></li></ul><ul><li><span class="metric-name">Collection and Platform Info:
+        </span><span class="metric-value"/><ul><li><span class="metric-name">Application Command Line:
+        </span><span class="metric-value">./ompprimev2 </span></li></ul><ul><li><span class="metric-name">Operating System:
+        </span><span class="metric-value">4.15.18 DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.4 LTS"</span></li></ul><ul><li><span class="metric-name">Computer Name:
+        </span><span class="metric-value">s001-n017</span></li></ul><ul><li><span class="metric-name">Result Size:
+        </span><span class="metric-value">6.8 MB </span></li></ul><ul><li><span class="metric-name">Collection start time:
+        </span><span class="metric-value">08:36:18 16/02/2021 UTC</span></li></ul><ul><li><span class="metric-name">Collection stop time:
+        </span><span class="metric-value">08:36:26 16/02/2021 UTC</span></li></ul><ul><li><span class="metric-name">Collector Type:
+        </span><span class="metric-value">Driverless Perf per-process counting,User-mode sampling and tracing</span></li></ul><ul><li><span class="metric-name">CPU:
+        </span><span class="metric-value"/><ul><li><span class="metric-name">Name:
+        </span><span class="metric-value">Intel(R) Xeon(R) Processor code named Skylake</span></li></ul><ul><li><span class="metric-name">Frequency:
+        </span><span class="metric-value">3.392 GHz </span></li></ul><ul><li><span class="metric-name">Logical CPU Count:
+        </span><span class="metric-value">24</span></li></ul><ul><li><span class="metric-name">Cache Allocation Technology:
+        </span><span class="metric-value"/><ul><li><span class="metric-name">Level 2 capability:
+        </span><span class="metric-value">not detected</span></li></ul><ul><li><span class="metric-name">Level 3 capability:
+        </span><span class="metric-value">available</span></li></ul></li></ul></li></ul></li></ul></body></html>
+
