@@ -21,3 +21,7 @@ Day 2: April 15th, 2021:
 2. Profiling MPI Applications
 3. Optimize Vectorization using Intel Advisor
 4. Analyze Vectorization and Memory Aspects of an MPI Application
+
+Day 3: April 16th, 2021:
+1. oneAPI Tools and Toolkits
+2. DPC++ Essentials 
