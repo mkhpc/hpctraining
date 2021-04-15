@@ -9,7 +9,7 @@ Day 1: April 13th, 2021:
 2. OpenMP Performance Tuning using Intel VTune Profiler
 3. Processor Cores Underutilization: OpenMP Serial Time
 
-Day 2: April 14th, 2021:
+Day 2: April 15th, 2021:
 1. Distributed Computing with MPI
 
     a) MPI Introduction
