@@ -25,3 +25,4 @@ Day 2: April 15th, 2021:
 Day 3: April 16th, 2021:
 1. oneAPI Tools and Toolkits
 2. DPC++ Essentials 
+3. Migrate Your Existing CUDA Code to DPC++ Code
